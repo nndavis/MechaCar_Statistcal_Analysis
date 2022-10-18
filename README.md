@@ -17,3 +17,12 @@ The design specifications for MechaCar suspension coils dictate that suspension 
 
 <img width="390" alt="Total_summary" src="https://user-images.githubusercontent.com/104074135/196476691-f80cea7d-b020-4a50-9273-f8eb816e9f72.png">
 <img width="455" alt="Lot_summary" src="https://user-images.githubusercontent.com/104074135/196476720-c3501c5a-6e66-473d-ab3a-06c6af1e57c9.png">
+
+## T-Tests on Suspension Coils
+
+The first T-Test is comparing the PSI of all suspension coils to a true mean value of 1500. The P-value here is 0.060 which shows that there is significant variance in PSI, and that true mean is not equal to 1500. The T value is -1.8931 which would be in favor of the null hypothesis.
+The second T-Test subsets the Lot1 PSI data from the data. The P-value here is 0.062 which again shows that there is significant variance in PSI. The true mean for this lot is 1498.17, and that is quite a bit lower than 1500. The T value is -1.8865 which would be in favor of the null hypothesis.
+The third T-test subsets the Lot2 PSI data from the data. The P-value here is 0.038. The PSI in this lot do not show a significant amount of variance. The true mean is 1498.07 which is still lower than 1500. The T value is -2.094 which would be in favor of the null hypothesis.
+The final T-test subsets the Lot3 PSI data from the data. The P-value here is 0.038. The same as lot2, this is not a significant amount of variance. The true mean is 1500.10, and that is the closest mean to 1500. Although, it exceeds the threshold. The T value is 2.1327 which would go against the null hypothesis.
+
+The main takeaway here is that Lot 3 true mean exceeds the threshold of 1500 pounds per square inch, and is the only T-test that goes against the null hypothesis.
