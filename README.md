@@ -26,3 +26,15 @@ The third T-test subsets the Lot2 PSI data from the data. The P-value here is 0.
 The final T-test subsets the Lot3 PSI data from the data. The P-value here is 0.038. The same as lot2, this is not a significant amount of variance. The true mean is 1500.10, and that is the closest mean to 1500. Although, it exceeds the threshold. The T value is 2.1327 which would go against the null hypothesis.
 
 The main takeaway here is that Lot 3 true mean exceeds the threshold of 1500 pounds per square inch, and is the only T-test that goes against the null hypothesis.
+
+<img width="449" alt="ttest1all" src="https://user-images.githubusercontent.com/104074135/196514465-7787f5e2-da31-4e73-9cc1-7be950447652.png">
+<img width="827" alt="ttest2lot1" src="https://user-images.githubusercontent.com/104074135/196514469-cdfa3950-fae9-4457-ad70-b6c05e0ebf1e.png">
+<img width="829" alt="ttest2lot2" src="https://user-images.githubusercontent.com/104074135/196514471-e4e4cbed-6fb1-4ba6-baaf-e00b8c5c96a5.png">
+<img width="827" alt="ttest2lot3" src="https://user-images.githubusercontent.com/104074135/196514473-4a60a346-1a7e-466f-8cb6-5768b2e09741.png">
+
+
+## Study Design: MechaCar vs Competition
+
+Aside from comparing MechaCar variance from model to model, it is also important to compare MechaCar to the competition. There is a market that has consumers that enjoy a fast and powerful car with lots of horsepower. Then there is the market for consumers that want fuel efficiency from there car. If MechaCar can design a car that is both powerful and fuel efficient then it would be able to bring in consumers from both those market demographics. So comparing MechaCars horsepower to fuel efficiency ratio to sports cars as well as fuel efficient cars would be the first step.
+
+So the main metrics are horsepower, mpg, and how they correlate against each other. The question here is, does a higher mpg vehicle have lower horsepower? The null hypothesis for this would be, mpg has no effect on horsepower. A summary of linear model that includes mpg and horsepower from mechacar vehicles would show the correlation between the two. The t value would be a good statistic to look at to see how the coefficients compare. The linear model could also be ran for competitors cars. The data needed to run these tests is the mpg and horsepower for each vehicle. If the T value is small then our null hypothesis will have good evidence. 
